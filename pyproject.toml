@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cronsafe"
+version = "1.0.0"
+description = "Python SDK for CronSafe cron job monitoring"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+authors = [
+    {name = "Jerome Tardy", email = "tardyjerome.jt@gmail.com"},
+]
+keywords = ["cron", "monitoring", "cronsafe", "healthcheck", "uptime", "devops"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Monitoring",
+]
+
+[project.urls]
+Homepage = "https://getcronsafe.com"
+Documentation = "https://getcronsafe.com/docs"
+Repository = "https://github.com/tardyjeromejt-sys/cronsafe-python"
+Issues = "https://github.com/tardyjeromejt-sys/cronsafe-python/issues"
